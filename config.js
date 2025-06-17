@@ -1,196 +1,204 @@
 const config = {
   "modalQuestions": [
     {
-      "id": "agent_status",
-      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "id": "family_day_activity",
+      "questionText": "When planning a day out with your family, which activity excites you the most?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        { "value": "exploring_neighborhoods", "text": "Exploring new neighborhoods" },
+        { "value": "amusement_parks", "text": "Visiting amusement parks" },
+        { "value": "picnic_park", "text": "Having a picnic in the park" },
+        { "value": "stay_home_movie", "text": "Staying at home with a movie" }
       ]
     },
     {
-      "id": "interest_level",
-      "questionText": "How interested are you in properties like this?",
+      "id": "family_change_excited",
+      "questionText": "Which upcoming change are you most excited about in your family's life?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        { "value": "adding_members", "text": "Adding new family members" },
+        { "value": "upgrading_home", "text": "Upgrading our home" },
+        { "value": "big_vacation", "text": "Planning a big family vacation" },
+        { "value": "new_hobbies", "text": "Focusing on new hobbies" }
       ]
     },
     {
-      "id": "neighborhood_engagement",
-      "questionText": "How do you usually enjoy the neighborhood?",
+      "id": "community_events_frequency",
+      "questionText": "How often do you attend local community events or family-oriented activities?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        { "value": "every_week", "text": "Every week" },
+        { "value": "few_times_month", "text": "A few times a month" },
+        { "value": "rarely", "text": "Rarely" },
+        { "value": "never", "text": "Never" }
       ]
     },
     {
-      "id": "feature_attraction",
-      "questionText": "What feature attracted you to this home?",
+      "id": "home_improvement_priorities",
+      "questionText": "In terms of home improvements, what are your family’s current priorities?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        { "value": "expand_space_kids", "text": "Expanding space for kids" },
+        { "value": "home_office", "text": "Creating a home office" },
+        { "value": "enhance_outdoor_living", "text": "Enhancing outdoor living space" },
+        { "value": "no_plans", "text": "No plans currently" }
       ]
     }
   ],
- "giveaway": {
-    "name": "Burger Jabs Feast",
-    "heroHeadline": "Win a <span class='highlight'>$100 Burger Feast</span> at Burger Jabs!",
-    "heroSubheadline": "Enter for a chance to indulge in a $100 meal at Burger Jabs—where family, flavor, and community come together!",
-    "promotionDates": "Promotion runs from May 9, 2025 until June 9, 2025.",
-    "endDate": "2025-07-09T23:59:59",
-    "heroBackgroundImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1990&q=80",
-    "heroCtaText": "Enter Now for a Feast!",
+  "giveaway": {
+    "name": "Canada's Wonderland Family Adventure",
+    "heroHeadline": "Unleash the Fun at Canada’s Wonderland!",
+    "heroSubheadline": "Win a Family Day Out Worth $400 and Create Memories That Last a Lifetime!",
+    "promotionDates": "Promotion runs from June 23, 2025 until July 17, 2025.",
+    "endDate": "2025-07-17T23:59:59",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/66xbyw2md9rma0cqfz2vbhxjp4.jpg",
+    "heroCtaText": "Enter Now for a Chance to Win!",
     "entryFormCtaText": "Count Me In!",
     "successModalHeaderText": "🎉 You're In! 🎉",
-    "successModalMainMessage": "Your entry for the <strong>Burger Jabs $100 Feast Giveaway</strong> has been successfully submitted. Best of luck!",
+    "successModalMainMessage": "Your entry for the <strong>Canada's Wonderland Family Adventure Giveaway</strong> has been successfully submitted. Best of luck!",
     "successModalEmailPrompt": "We'll announce the winner via email after the draw date. Keep an eye on your inbox!"
   },
   "prize": {
-    "name": "Burger Jabs $100 Family Feast Voucher",
-    "value": "$100 Value",
-    "description": "Get ready to treat your family (or yourself!) to an unforgettable meal. You're entering for a chance to win a $100 gift voucher to enjoy juicy burgers, crispy fries, refreshing drinks, and more at Burger Jabs—the newest local hotspot that brings community and incredible flavor together under one roof.",
+    "name": "Canada's Wonderland Family Passes and Parking Pass",
+    "value": "$400+ Value",
+    "description": "Enjoy a magical family day at Canada’s Wonderland with passes for the whole family plus a convenient parking pass included. Experience thrilling rides, tasty treats, and unforgettable family bonding time.",
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-        "alt": "Delicious Burger Combo"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/66xbyw2md9rma0cqfz2vbhxjp4.jpg",
+        "alt": "Canada's Wonderland Family Day"
       },
       {
-        "src": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-        "alt": "Another view of burgers"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/66xbyw2md9rma0cqfz2vbhxjp4.jpg",
+        "alt": "Thrilling rides at Canada's Wonderland"
       },
       {
-        "src": "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-        "alt": "Fries and Burger"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/66xbyw2md9rma0cqfz2vbhxjp4.jpg",
+        "alt": "Family enjoying amusement park"
+      },
+      {
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/66xbyw2md9rma0cqfz2vbhxjp4.jpg",
+        "alt": "Exciting family day out"
       }
     ],
     "includedItems": [
-      { "icon": "fas fa-ticket-alt", "text": "Exclusive $100 gift voucher for anything on the menu" },
-      { "icon": "fas fa-users", "text": "Perfect for a family feast or a treat with friends" },
-      { "icon": "fas fa-store-alt", "text": "Support a fantastic local business: Burger Jabs" },
-      { "icon": "fas fa-check-circle", "text": "No purchase necessary to enter or win" },
-      { "icon": "fas fa-bolt", "text": "Quick and easy online entry!" }
+      { "icon": "fas fa-ticket-alt", "text": "Family passes to all rides and attractions" },
+      { "icon": "fas fa-parking", "text": "Parking pass included for stress-free arrival" },
+      { "icon": "fas fa-users", "text": "Ideal for families and young couples seeking adventure" },
+      { "icon": "fas fa-clock", "text": "Valid for a limited time only" },
+      { "icon": "fas fa-thumbs-up", "text": "Easy and fun entry process" }
     ],
-    "limitedTimeOfferText": "🎁 Limited Time Giveaway!",
+    "limitedTimeOfferText": "🎡 Limited Time Family Adventure Giveaway!",
     "ctaButtonText": "I WANT TO WIN THIS!"
   },
-  "howToEnter": { //Do Not Change
-    "steps": [ //Do Not Change
+  "howToEnter": {
+    "steps": [
       {
         "icon": "fas fa-keyboard",
         "title": "Fill the Form",
-        "description": "Simply enter your name and email address in the form below. It takes less than 30 seconds!"//Do Not Change
+        "description": "Simply enter your name and email address in the form below. It takes less than 30 seconds!"
       },
       {
         "icon": "fas fa-share-alt",
         "title": "Share (Optional)",
-        "description": "Spread the word on social media using the links after you enter. (Sharing is caring, but not required for entry!)" //Do Not Change
+        "description": "Spread the word on social media using the links after you enter. (Sharing is caring, but not required for entry!)"
       },
       {
         "icon": "fas fa-envelope-open-text",
         "title": "Check Your Email",
-        "description": "We'll contact the winner via email. Make sure you enter a valid email address and check your spam folder too!" //Do Not Change
+        "description": "We'll contact the winner via email. Make sure you enter a valid email address and check your spam folder too!"
       }
     ],
     "highlights": [
       { "icon": "fas fa-stopwatch", "text": "Quick & Easy Entry" },
-      { "icon": "fas fa-gift", "text": "Amazing $100 Prize" },
+      { "icon": "fas fa-gift", "text": "Amazing $400+ Prize" },
       { "icon": "fas fa-smile", "text": "Free to Enter!" }
     ]
   },
   "entryForm": {
-    "subtitle": "Provide your details below for a chance to win this delicious prize!",
-    "entryCountText": "Over 500+ entries already! Don't miss out!",
-    "socialSharePrompt": "Tell your friends about this awesome giveaway:",
+    "subtitle": "Provide your details below for a chance to win this amazing family adventure!",
+    "entryCountText": "Join 1000+ families already entered! Don't miss out!",
+    "socialSharePrompt": "Tell your friends about this great giveaway:",
     "sharePlatforms": {
       "facebook": "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Check out this amazing Burger Jabs giveaway!")
-    },
+      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Win a Family Day at Canada's Wonderland! Enter now!")
+    }
   },
   "rules": {
     "fairSelectionInfo": {
       "title": "Fair & Square Selection",
-      "text": "Our winner selection process is completely random and unbiased, ensuring everyone has an equal chance. The draw will be conducted using a certified random number generator."
+      "text": "The winner will be randomly selected with unbiased fairness, ensuring everyone has equal chances. The draw is conducted with certified random number generator."
     },
     "importantNotice": {
       "title": "Winner Notification - Check Your Email!",
-      "text": "The lucky winner will be contacted exclusively via the email address provided during entry. Please ensure your email is correct. We recommend checking your inbox, promotions tab, and spam/junk folder regularly after the giveaway concludes."
+      "text": "The winner will be contacted by email at the provided address. Please monitor your inbox and spam/junk folders after July 17, 2025."
     },
     "faq": [
       {
         "q": "Who is eligible to enter?",
-        "a": "This giveaway is open to legal residents of [Your City/Region/Country] who are 18 years of age or older at the time of entry."
+        "a": "This giveaway is open to families and potential homebuyers residing in the local area who are 18 years or older."
       },
       {
-        "q": "How long does the giveaway run?",
-        "a": "The giveaway starts on May 9, 2025, and all entries must be received by June 9, 2025, at 11:59 PM [Your Timezone]."
+        "q": "When does the giveaway run?",
+        "a": "Entries are accepted from June 23, 2025 through the end of July 17, 2025."
       },
       {
         "q": "How will the winner be selected?",
-        "a": "One (1) winner will be selected in a random drawing from all eligible entries received during the promotion period."
+        "a": "A single winner will be chosen at random from all eligible entries after the promotion ends."
       },
       {
-        "q": "When and how will the winner be notified?",
-        "a": "The potential winner will be notified by email on or about June 12, 2025. They will have [e.g., 48 hours] to respond and claim their prize."
+        "q": "How and when will the winner be notified?",
+        "a": "The winner will be notified by email on or around July 17, 2025 and must respond promptly to claim the prize."
       },
       {
         "q": "How many times can I enter?",
-        "a": "Limit one (1) entry per person/email address during the entire promotion period. Duplicate entries will be disqualified."
+        "a": "One entry per person/email is allowed during the promotion period; duplicates will be disqualified."
       },
       {
         "q": "Is my information secure?",
-        "a": "We respect your privacy. Your information will be used solely for the purpose of this giveaway and in accordance with our Privacy Policy. We do not sell your data."
+        "a": "Your privacy is respected. Information is used only for giveaway purposes in accordance with our Privacy Policy. No data is sold."
       }
     ],
     "tips": [
-      "Double-check your email address for typos before submitting.",
-      "Add our contact email (if provided in footer) to your address book to ensure you receive notifications.",
-      "Follow [Organizer Name] on social media for winner announcements (optional)."
+      "Double-check your email before submitting.",
+      "Add our contact email to your address book to prevent missing notifications.",
+      "Follow Myles Schwartz on Instagram and Facebook for updates and winner announcements."
     ]
   },
   "footerContact": {
-    "organizerName": "Burger Jabs Restaurant",
-    "organizerLogoUrl": "https://via.placeholder.com/200x60/FF7A00/4A3F35?text=Burger+Jabs",
-    "email": "hello@burgerjabs.com",
-    "phone": "(555) 123-BURGER",
-    "address": "123 Delicious Lane, Foodie Town, USA",
-    "brokerageName": "Burger Jabs Realty (Placeholder)",
-    "secondaryLogoUrl": "https://via.placeholder.com/100x50/eee/999?text=Secondary+Logo",
-    "secondaryLogoAlt": "Secondary Company Logo",
+    "organizerName": "Myles Schwartz",
+    "organizerLogoUrl": "",
+    "email": "contact@mylesschwartz.com",
+    "phone": "647-999-5594",
+    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
+    "brokerageName": "Property.Ca",
+    "secondaryLogoUrl": "",
+    "secondaryLogoAlt": "",
     "social": {
-      "facebook": "https://via.placeholder.com/200x60/FF7A00/4A3F35?text=Burger+Jabs",
-      "instagram": "https://via.placeholder.com/200x60/FF7A00/4A3F35?text=Burger+Jabs"
+      "facebook": "https://www.facebook.com/profile.php?id=61567387292681",
+      "instagram": "https://www.instagram.com/mylesschwartz.to"
     },
     "agentContact": {
-      "name": "Jab Burger",
-      "title": "Chief Burger Officer",
-      "phone": "(555) JAB-MEAL",
-      "email": "jab@burgerjabs.com"
+      "name": "Myles Schwartz",
+      "title": "Real Estate Agent",
+      "phone": "647-999-5594",
+      "email": "contact@mylesschwartz.com"
     },
-    "copyrightOwner": "Burger Jabs Co.",
-    "footerDisclaimer": "This is a placeholder for the important legal disclaimer text that will appear at the top of the footer."
+    "copyrightOwner": "Property.Ca",
+    "footerDisclaimer": "Terms and conditions apply. Contest open to potential homebuyers and growing families only."
   },
   "meta": {
-    "pageTitle": "Burger Jabs $100 Feast Giveaway!",
-    "navBrandLogoText": "Burger Jabs",
-    "privacyPolicyLink": "",
+    "pageTitle": "Canada's Wonderland Family Adventure Giveaway!",
+    "navBrandLogoText": "Myles Schwartz Realty",
+    "privacyPolicyLink": "https://property.ca/privacy"
   },
   "settings": {
     "ghlWebhookUrl": "",
-    "theme": "light",
+    "theme": "dark",
     "primaryColorOverride": "",
-    "confettiColors": ["#FF7A00", "#FFC107", "#4CAF50", "#FFFFFF", "#FFF5E6"],
+    "confettiColors": ["#FF7A00", "#FFC107", "#4CAF50", "#FFFFFF", "#000000"],
     "showCountdownInHero": true
   },
   "deploymentInfo": {
-    "repoName": "openhouse",
-    "repoUrl": "https://github.com/arslvn93/openhouse",
-    "tag": "Open House 168 Abbey",
-    "netlifyUrl": "https://openhousetester.netlify.app/",
-    "netlifyId": "547dc1ef-2c83-4d08-815f-344d40fc3ca2"
+    "repoName": "Giveaway-611",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-611",
+    "tag": "Canada's Wonderland Family Adventure",
+    "netlifyUrl": "http://Giveaway-611.netlify.app",
+    "netlifyId": "1003934640"
   }
 };
