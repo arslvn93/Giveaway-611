@@ -149,11 +149,11 @@ const config = {
     },
     "organizerName": "Myles Schwartz",
     "brokerageName": "Property.Ca",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
+    "organizerLogoUrl": "https://iss-cdn.myrealpage.com/D5-RnVTh4iDQhQ7VSUSD-8cqabaOGOVBesXT-1jKQS4/rs:auto:2019:0:0/g:sm/bG9jYWw6Ly8vZGF0YS9hcHAvd3BzL20veS9sL2UvbXlsZXMtc2Nod2FydHoubXlyZWFscGFnZXdlYnNpdGUuY29tL19tZWRpYS9jdXN0b20vTVMtbG9nby13aGl0ZS5wbmc_dD0xNzM3MTU0NTg5Njc1?t=1737154589675",
+    "secondaryLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGPVOOYpFZqEw/company-logo_200_200/company-logo_200_200/0/1688154975816?e=2147483647&v=beta&t=7jJ7WNvQUL5algGYioRxWaB8IzwpsXM9q_90_S-QsFw",
     "secondaryLogoAlt": "",
-    "email": "contact@mylesschwartz.com",
-    "phone": "647-999-5594",
+    "email": "",
+    "phone": "",
     "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
     "footerDisclaimer": "Terms and conditions apply. Contest open to potential homebuyers and growing families only.",
     "copyrightOwner": "Property.Ca",
@@ -192,7 +192,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750196763505_0",
+      "id": "q_auto_1750197011516_0",
       "questionText": "When planning a day out with your family, which activity excites you the most?",
       "options": [
         {
@@ -214,7 +214,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750196763506_1",
+      "id": "q_auto_1750197011516_1",
       "questionText": "Which upcoming change are you most excited about in your family's life?",
       "options": [
         {
@@ -236,7 +236,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750196763506_2",
+      "id": "q_auto_1750197011516_2",
       "questionText": "How often do you attend local community events or family-oriented activities?",
       "options": [
         {
@@ -258,7 +258,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750196763506_3",
+      "id": "q_auto_1750197011516_3",
       "questionText": "In terms of home improvements, what are your family’s current priorities?",
       "options": [
         {
